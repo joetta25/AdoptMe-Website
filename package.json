@@ -4,8 +4,9 @@
   "description": "complete intro to react FRONTEND Masters",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier \"src/**/*.{js,html}\" --write",
-      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,9 +21,12 @@
   "homepage": "https://github.com/joetta25/AdoptMe-Website#readme",
   "devDependencies": {
     "eslint-config-prettier": "^7.1.0",
+    "parcel-bundler": "^1.12.4",
     "prettier": "^2.2.1"
   },
   "dependencies": {
-    "eslint": "^7.16.0"
+    "eslint": "^7.16.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
