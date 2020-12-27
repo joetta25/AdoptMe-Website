@@ -1,0 +1,28 @@
+{
+  "name": "adoptme",
+  "version": "1.0.0",
+  "description": "complete intro to react FRONTEND Masters",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joetta25/AdoptMe-Website.git"
+  },
+  "author": "Joetta Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joetta25/AdoptMe-Website/issues"
+  },
+  "homepage": "https://github.com/joetta25/AdoptMe-Website#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^7.1.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "eslint": "^7.16.0"
+  }
+}
